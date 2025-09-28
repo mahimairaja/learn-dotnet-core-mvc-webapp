@@ -33,6 +33,8 @@ public string Description {get; set;} = null!;
 
 5. Will Interact with Data base using Entity Frame Core, it was mentioned as ORM. So, I assume EFC could be something like drizzle or sqlalchemy. 
 
+6. Defined the `Expense` data model
+
 
 ## Session 2
 
@@ -48,4 +50,18 @@ dotnet new class -n FinanceAppContext -o Data`
 9. Added the connection string to appsettings.json
 
 ## Session 3
+
+10. Installed the Entitye Framework Core tools globally
+
+```bash
+dotnet tool install --global dotnet-ef
+```
+
+11. Then as we have already defined the `Expense` data model now I added the migrated and updated the database using
+
+```bash
+dotnet ef migrations add InitialCreate # this is like git commit
+
+dotnet ef database update # it will update my database schem according to the data model specified
+```
 
