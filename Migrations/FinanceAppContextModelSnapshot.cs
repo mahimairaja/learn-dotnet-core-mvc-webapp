@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using learn_dotnet_core_mvc_webapp;
+using learn_dotnet_core_mvc_webapp.Models;
 
 #nullable disable
 

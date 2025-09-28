@@ -1,4 +1,5 @@
 using learn_dotnet_core_mvc_webapp;
+using learn_dotnet_core_mvc_webapp.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

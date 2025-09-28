@@ -18,6 +18,8 @@ dotnet new mvc
 dotnet new class -n Expense -o Models
 ```
 
+| edit: I just came to know if we are using new class to create Model then we need to manually edit the namespace to <namespace>.Models
+
 
 3. Learnt about null forgiving operator
 
@@ -65,3 +67,22 @@ dotnet ef migrations add InitialCreate # this is like git commit
 dotnet ef database update # it will update my database schem according to the data model specified
 ```
 
+12. Then I created a new Controller class using the command
+
+```bash
+dotnet new mvccontroller -n ExpensesController -o Controllers
+```
+
+And defined the created context to the controller
+
+13. Created a new razor page in the Views using
+
+```bash
+dotnet new view -n Index -o Views/Expenses
+```
+
+This command creates a new Razor page - Index.cshtml under the Views/Expenses dir
+
+So what happens in Controllers here are defining the routes, so for example if I am going to /<controller_name> the method `ActionResult` routes to  Index view 
+
+Also the routing pattern is specified in program.cs in `MapControllerRoute`

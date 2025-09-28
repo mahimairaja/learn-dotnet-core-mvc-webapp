@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace learn_dotnet_core_mvc_webapp;
+namespace learn_dotnet_core_mvc_webapp.Models;
 
 public class Expense
 {
