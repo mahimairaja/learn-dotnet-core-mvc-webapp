@@ -86,3 +86,8 @@ This command creates a new Razor page - Index.cshtml under the Views/Expenses di
 So what happens in Controllers here are defining the routes, so for example if I am going to /<controller_name> the method `ActionResult` routes to  Index view 
 
 Also the routing pattern is specified in program.cs in `MapControllerRoute`
+
+## Session 4
+
+14. Added new Create controller to add new data to the context using Controller and Create Razor page.
+
