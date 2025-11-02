@@ -91,3 +91,8 @@ Also the routing pattern is specified in program.cs in `MapControllerRoute`
 
 14. Added new Create controller to add new data to the context using Controller and Create Razor page.
 
+15. Learn to conver the method to async manner using async, Task <> and await keywords.
+
+16. Accessing the database from Controllers is not a good practice so we will access it from Services.
+
+
